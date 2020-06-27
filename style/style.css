@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    background-image: url("../img/Group 1.png");
+    height: 100vh;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Navbar */
+
+.navbar-nav{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.navbar-nav a{
+    color: #ffffff;
+}
+.navbar-nav a:hover{
+    opacity: 0.8;
+}
+.nav-item{
+    margin: 0 10px 0 10px;
+}
+
+/* End Navbar */
+
+/* Main Home */
+
+.main-home{
+    text-align: center;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+.main-home h1{
+    font-family: 'Racing Sans One', cursive;
+    color: #ffffff;
+    font-size: 64px;
+}
+.main-home p{
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.btn-gelap{
+    background-color: #000000;
+    color: #ffffff;
+}
+.btn-terang{
+    background: #ffffff;
+    color: #000000;
+}
+.btn-terang:hover{
+    color: #000;
+}
+.btn{
+    width: 168px;
+    height: 56px;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn-gelap:hover{
+    color: #f4f4ff;
+}
+
+.footer-home{
+    margin-top: 130px;
+}
+
+/* End Main Home */
+
+
+
+/* Album Section */
+.music{
+    padding: 5% 5%;
+    background-image: url("../img/nm.svg");
+}
+
+.album-music{
+    height: 352px;
+    width: 352px;
+}
+.newest{
+    font-family: 'Roboto', sans-serif;
+    color: #929292;
+}
+.music p{
+    font-family: 'Roboto', sans-serif;
+}
+.music h2{
+    font-family:'Racing Sans One', cursive;
+}
+
+
+
+/* Footer */
+.footer{
+    padding: 5% 5%;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif
+}
+.upcoming-title{
+        font-family: 'Roboto', sans-serif;
+        color: #929292;
+}
+.footer h2{
+    font-family:'Racing Sans One', cursive;
+    font-size: 50px;
+}
+.footer p{
+    font-size: 18px;
+}
+hr{
+    color: #ffffff;
+}
+.rectangle{
+    height: 300px;
+    width: 100%;
+}
+.copyright{
+    margin-top: 170px;
+}
+.logo1{
+    margin-left: 440px;
+}
+.logo{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+/* form html */
+.head-form{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 64px;
+    color: #ffffff;
+    font-family: 'Racing Sans One', cursive;
+}
+.submit{
+    background-image: url("../img/nm.svg");
+    height: 100vh;
+}
+form{
+    margin-top: 50px;
+    position: absolute;
+    left: 400px;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 15% 5% 5%;
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    color: #929292;
+}
+
+.submit{
+    padding: 16% 5% 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
